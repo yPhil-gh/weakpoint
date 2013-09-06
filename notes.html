@@ -1,0 +1,43 @@
+<html>
+<head>
+  <script src="navigate.js"></script>
+  <link rel="stylesheet" type="text/css" href="slides.css">
+  <title>Slide Presentations in HTML and JavaScript: Notes for yourself</title>
+</head>
+
+<body>
+<span id="navigation">
+  <a href="" accesskey="P" onclick="prevSlide(); return false;">Previous</a> |
+  <a href="" accesskey="B" onclick="prevSlide(); return false;"></a>
+  <a href="" accesskey="N" onclick="nextSlide(); return false;">Next</a>
+</span>
+
+<div id="page">    
+<div id="content">
+<h1 class="title" onclick="nextSlide()"
+ ondblclick="prevSlide()">Notes for yourself</h1>
+
+<p>
+If you have a widescreen laptop that projects only the left portion
+of the screen, you can use the right edge of the screen for notes,
+like this:
+
+<p>
+<pre>
+&lt;div id="notes"&gt;
+(your notes go here)
+&lt;/div&gt;
+</pre>
+</div>
+
+<div id="notes">
+The audience won't see the notes,
+so you can remind yourself of jokes or
+stories you want to tell, or important
+points you don't want to forget to mention.
+</div>
+
+</div>
+
+</body>
+</html>

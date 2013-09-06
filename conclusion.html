@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="jquery.min.js"></script>
+    <script src="navigate.js"></script>
+    <link rel="stylesheet" type="text/css" href="slides.css">
+    <title>Web-design au XXIème siècle</title>
+  </head>
+  <script>
+    $(document).ready(function() {
+
+	function pulseAlbums() {
+	    $('.ico').fadeIn(3000);
+	    $('.ico').fadeOut(3000);
+	}
+	pulseAlbums();
+	var pause = 2000;
+	interval = setInterval(pulseAlbums, pause);
+    });
+
+  </script>
+
+  <body>
+    <script type="text/javascript">
+      $(document).ready(function() {
+
+      $(".cycle").hide();
+      $(".cycle").show(25000);
+      });
+    </script>
+    <span id="navigation">
+      <a href="" accesskey="P" onclick="prevSlide(); return false;">Previous</a> |
+      <a href="" accesskey="B" onclick="prevSlide(); return false;"></a>
+      <a href="" accesskey="N" onclick="nextSlide(); return false;">Next</a>
+    </span>
+
+    <div id="page">
+      <div id="content">
+	<h1 class="title" onclick="nextSlide()"
+	    ondblclick="prevSlide()">Conclusion</h1>
+	<h2>That's far from it ;)</h2>
+	<p>Le Web design aujourd'hui, dépasse le cadre de l'internet. Le web-designer a sa place dans chaque équipe, chaque entreprise. C'est un métier complexe, riche et passionnant.</p>
+	<p>Il ne demande rien d'autre qu'une vrai passion pour l'image, l'information, <span class="cycle">l'émotion.</span></p>
+	<p>Merci de votre attention.</p>
+	<p style="float:right;margin:0 0 5em 0;">... Philippe M. Coatmeur</p>
+	<div id="shots">
+	  <p>&nbsp;</p>
+	  <p class="ico">([echap / home / F5] pour revenir à l'accueil)</p>
+	  <p class="ico"></p>
+	  <p>&nbsp;</p>
+	  <p><img src="img/ico2.gif" class="ico" alt="ico" style="display: none;float: right;clear: both;margin: 2em 0 0 0;" /></p>
+	</div>
+      </div>
+    </div>
+    <div id="footer">&copy; Philippe M. Coatmeur</div>
+  </body>
+</html>

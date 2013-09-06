@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="jquery.min.js"></script>
+    <script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
+    <script src="navigate.js"></script>
+    <link rel="stylesheet" type="text/css" href="slides.css">
+    <title>Web-design  - index</title>
+  </head>
+  <body>
+    <script>
+    $(document).ready(function() {
+
+	function pulseAlbums() {
+	    $('.ico').fadeIn(3000);
+	    $('.ico').fadeOut(3000);
+	}
+	pulseAlbums();
+	var pause = 2000;
+	interval = setInterval(pulseAlbums, pause);
+    });
+
+</script>
+    <span id="navigation">
+      <a href="" accesskey="P" onclick="prevSlide(); return false;">Previous</a> |
+      <a href="" accesskey="B" onclick="prevSlide(); return false;"></a>
+      <a href="" accesskey="N" onclick="nextSlide(); return false;">Next</a>
+    </span>
+
+    <div id="page">
+      <div id="content">
+	<h1 class="title" onclick="nextSlide()"
+	    ondblclick="prevSlide()">Web-design, aujourd'hui</h1>
+	  <h2>Une présentation en HTML</h2>
+	<p>2012 - Philippe M. Coatmeur<p>
+<div id="shots">
+<p>&nbsp;</p>
+<p class="ico">([espace] ou [droite / gauche] pour passer les slides, [echap / home / F5] pour revenir ici)</p>
+<p class="ico" >([F11] pour passer en plein écran, [.] pour noircir l'écran)</p>
+<p>&nbsp;</p>
+<p><img src="img/ico2.gif" class="ico" alt="ico" style="display: none;float: right;clear: both;margin: 2em 0 0 0;" /></p>
+</div>
+      </div>
+      <div id="footer">&copy; Philippe M. Coatmeur</div>
+  </body>
+</html>

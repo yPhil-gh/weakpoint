@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="navigate.js"></script>
+    <link rel="stylesheet" type="text/css" href="slides.css">
+    <title>Web-design au XXIème siècle</title>
+  </head>
+
+  <body onload="initPoints(1)">
+    <span id="navigation">
+      <a href="" accesskey="P" onclick="prevSlide(); return false;">Previous</a> |
+      <a href="" accesskey="B" onclick="prevSlide(); return false;"></a>
+      <a href="" accesskey="N" onclick="nextSlide(); return false;">Next</a>
+    </span>
+
+    <div id="page">    
+      <div id="content">
+	<h1 class="title" onclick="nextSlide()"
+	    ondblclick="prevSlide()">Un nouveau métier</h1>
+	<h2>Le Web-designer, qui est-ce&nbsp?</h2>
+	<p>La place du web-designer dans l'équipe<p>
+
+	  <ul id="points">
+	    <li>Au coeur du processus de développement visuel (charte graphique)</li>
+	    <li>Garant de l'identité visuelle du projet (<em>look & feel</em>)</li>
+	    <li>Garant du respect des standards (typo, ergonomie, etc.)</li>
+	    <li>Coordination avec l'équipe (développeur / intégrateur)</li>
+	    <li><strong>D</strong>irecteur <strong>A</strong>rtistique</li> 
+	  </ul>
+
+      </div>
+    </div>
+    <div id="footer">&copy; Philippe M. Coatmeur</div>
+  </body>
+</html>
