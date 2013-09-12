@@ -10,14 +10,14 @@
 // Slide navigation. List your slides here, in order.
 //
 var slides = new Array ( "index.html",
-                         "le-web-design.html",
-                         "le-web-designer.html",
-                         "les-outils.html",
-                         "les-tendances.html",
-                         "les-technologies.html", 
-			 "recherche.html",
-			 "identite-visuelle.html",
-                         "conclusion.html" );
+                         "001-le-web-design.html",
+                         "002-le-web-designer.html",
+                         "003-les-outils.html",
+                         "004-les-tendances.html",
+                         "005-les-technologies.html",
+			 "006-recherche.html",
+			 "007-identite-visuelle.html",
+                         "008-conclusion.html" );
 
 //
 // Add the event listener.
@@ -205,4 +205,3 @@ function prevSlide() {
   }
   window.location = slides[i-1];
 }
-
