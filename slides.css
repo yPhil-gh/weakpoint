@@ -43,7 +43,7 @@ h1 {
     text-shadow: 2px 2px 2px #000;
 }
 
-p, 
+p,
 li {
     font-family: 'JunctionRegular';
 }
@@ -52,18 +52,18 @@ p {
 margin: .5em 0;
 }
 
-h1, 
-h2, 
-h3, 
-h4, 
+h1,
+h2,
+h3,
+h4,
 h5 {
     font-family: 'JunctionRegular';
     margin: 0 0 .3em 0;
 }
 
-h2, 
-h3, 
-h4, 
+h2,
+h3,
+h4,
 h5 {
     font-family: 'CursiveSansOblique', sans-serif;
     /* font-style: italic; */
@@ -112,14 +112,14 @@ img.shot {
     outline: #000 double thin;
 }
 
-sup, 
+sup,
 sub {
     height: 0;
     line-height: 1;
     vertical-align: baseline;
     _vertical-align: bottom;
     position: relative;
-    
+
 }
 
 sup {
@@ -168,7 +168,7 @@ table {
 }
 
 #content ul li:nth-child(2n+2) {
-  background-image: url(img/ico-b2.gif);
+  background-image: url(img/bullet-even.gif);
 }
 
 #content ul {
@@ -185,7 +185,7 @@ table {
 #content li {
   list-style-image: none;
   /* background-image: url(img/purple.png); */
-  background-image: url(img/ico-b.gif);
+  background-image: url(img/bullet-odd.gif);
   background-repeat: no-repeat;
   background-position: left center;
   margin-bottom: .5em;
