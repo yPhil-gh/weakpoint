@@ -1,10 +1,8 @@
 // JavaScript Slide Presentation software.
 // Copyright 2003-2007 by Akkana Peck.
+// Modified (Transitions, JQuery, Markdown experiments) 2012 P. Coatmeur
 // This software is licensed under the GNU public license --
 // Share and enjoy!
-
-// See a presentation on how to use this at
-// http://shallowsky.com/linux/presentations/
 
 //
 // Slide navigation. List your slides here, in order.
